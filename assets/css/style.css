@@ -13,7 +13,8 @@ header,
 main,
 footer,
 section,
-article {
+article,
+#wrapper {
     margin: 0;
     padding: 0;
 }
@@ -354,4 +355,75 @@ input[type=radio] {
 
 #submit_form:active{ 
     transform: scale(0.98);
+}
+
+
+/*   FOOTER */
+
+footer{
+    position: relative;
+}
+
+
+.first_line_footer {
+    width: 70%;
+    margin: 10rem auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+
+footer p {
+    font-size: 14px;
+}
+
+
+.nav_footer a{
+    font-size: 16px;
+
+}
+
+.nav_footer ul li {
+    display: inline-block;
+    padding-right: 15px;
+    
+}
+
+.nav_footer ul li a:hover{
+    color: rgb(121, 118, 118);
+}
+
+
+
+.oneliner{
+    width: 70%;
+    width: 70%;
+    margin: 10rem auto;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.land_infos p {
+    margin: 0;
+}
+
+footer img{
+    position: absolute;
+    bottom: -3rem;
+    left: 3rem;
+}
+
+#linkedin {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: -20px;
+    right: 40vw;
+}
+#linkedin img {
+    width: 30px;
+    height: 30px;
 }
