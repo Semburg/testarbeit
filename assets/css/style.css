@@ -3,17 +3,23 @@
 
 /* SETTINGS */
 
-*{
+* {
     box-sizing: border-box;
 }
 
-html, body, header, main, footer, section, article{
+html,
+body,
+header,
+main,
+footer,
+section,
+article {
     margin: 0;
     padding: 0;
 }
 
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
@@ -79,7 +85,7 @@ header {
     background: transparent;
 }
 
-.open-btn:hover{
+.open-btn:hover {
     cursor: pointer;
 }
 
@@ -103,7 +109,7 @@ header {
     justify-content: space-around;
 }
 
-.close-btn{
+.close-btn {
     opacity: 0.4;
     position: absolute;
     top: 3rem;
@@ -127,14 +133,14 @@ header {
     font-size: 48px;
 }
 
-.welcome_a{
+.welcome_a {
     padding-top: 5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.welcome_a .img  {
+.welcome_a .img {
     display: inline-block;
     width: 700px;
     height: 700px;
@@ -147,7 +153,7 @@ header {
     text-align: left;
 }
 
-.second .img{
+.second .img {
     background: url("/assets/img/3.jpg") center/cover no-repeat;
     margin-bottom: 10rem;
 }
@@ -157,7 +163,7 @@ header {
 
 
 #second_part {
-    
+
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -166,7 +172,7 @@ header {
 }
 
 
-.not_paralax{
+.not_paralax {
     position: relative;
     width: 100vw;
     height: 800px;
@@ -180,11 +186,12 @@ header {
     right: 12rem;
 }
 
-#news h2, #wrapper_news_line {
+#news h2,
+#wrapper_news_line {
     padding-left: 10px;
 }
 
-#wrapper_news_line{
+#wrapper_news_line {
     width: 90%;
     margin: 5rem auto;
     display: flex;
@@ -198,10 +205,10 @@ header {
     justify-content: space-around;
     height: 640px;
     width: 320px;
-    
+
 }
 
-.news_item:nth-child(even){
+.news_item:nth-child(even) {
     align-self: flex-end;
 }
 
@@ -214,28 +221,137 @@ header {
 .pub_date {
     color: #79AEBA;
 }
+
 .button_info {
     padding: 5px 25px;
 
-    color:wheat;
+    color: wheat;
     background: #000;
     /* border: 1px blue solid; */
 }
 
-#wrapper_news_line .news_img.second{
+#wrapper_news_line .news_img.second {
     background: url("/assets/img/6.jpg") center/cover no-repeat;
 }
-#wrapper_news_line .news_img.third{
+
+#wrapper_news_line .news_img.third {
     background: url("/assets/img/7.jpg") center/cover no-repeat;
 }
-#wrapper_news_line .news_img.fourth{
+
+#wrapper_news_line .news_img.fourth {
     background: url("/assets/img/8.jpg") center/cover no-repeat;
 }
 
 
 
+/* VISION + next IMAGE + Form */
+
+.vision {
+    width: 100vw;
+}
+
+.vision h2 {
+    padding-left: 10px;
+
+}
+
+.vision_img {
+    width: 95%;
+    height: 780px;
+    margin: 0 auto;
+    background: url("/assets/img/9.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.playbeck_button {
+    position: relative;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 50.5px;
+    border-color: transparent transparent transparent #000;
+    position: absolute;
+    top: 65px;
+    left: 73px;
+}
+
+
+form {
+    width: 80%;
+    margin: 10rem auto;
+
+    
+}
+
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
+.user-data {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.user-message {
+    width: 30%;
 
+}
+.radio_wrapper{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+input, select, label, textarea  {
+    font-size: 20px;
+    width: 100%;
+}
+
+input[type=radio] {
+    width: 20px;
+    margin: 0;
+    margin-right: 4rem;
+}
+
+.button_wrapper{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTON */
+#submit_form {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 7px;  
+    border:none; 
+    transition: all .3s linear;
+}
+#submit_form:hover{ 
+    background: rgb(126, 124, 124); 
+    cursor: pointer;
+}
+
+#submit_form:active{ 
+    transform: scale(0.98);
+}
