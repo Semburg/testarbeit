@@ -13,3 +13,14 @@ openBtn.addEventListener('click', ()=>{
 closeBtn.addEventListener('click', ()=>{
     navbar.classList.remove('show');
 })
+
+// closing the Manu on "ESC"
+document.addEventListener('keydown', (e)=>{
+    if (navbar.classList.contains('show')) {
+        if (e.code == "Escape") {
+            navbar.classList.remove('show');
+        }
+
+    }
+})
+
