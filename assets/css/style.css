@@ -30,6 +30,10 @@ li {
     list-style: none;
 }
 
+p {
+    font-size: 24px;
+}
+
 
 /* HEADER STYLES */
 
@@ -60,7 +64,7 @@ header {
     right: 3rem;
     width: 60px;
     height: 60px;
-    color: white;
+    color: rgb(148, 147, 147);
     background: transparent;
 }
 
@@ -101,6 +105,40 @@ header {
     cursor: pointer;
 }
 
+/* WELCOME SECTION STYLES */
+
+#welcome {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+#welcome h2 {
+    font-size: 48px;
+}
+
+.welcome_a{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome_a .img  {
+    display: inline-block;
+    width: 700px;
+    height: 700px;
+    background: url("/assets/img/2.jpg") center/cover no-repeat;
+}
+
+.welcome_a .text {
+    display: inline-block;
+    width: 700px;
+    text-align: left;
+}
+
+.second .img{
+    background: url("/assets/img/3.jpg") center/cover no-repeat;
+}
 
 
 
