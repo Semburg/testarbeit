@@ -20,7 +20,6 @@ document.addEventListener('keydown', (e)=>{
         if (e.code == "Escape") {
             navbar.classList.remove('show');
         }
-
     }
 })
 

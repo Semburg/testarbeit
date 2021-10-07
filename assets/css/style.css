@@ -58,7 +58,7 @@ h4 {
 header {
     height: 100vh;
     width: 100vw;
-    background-image: url("/assets/img/1.jpg");
+    background-image: url("https://semburg.github.io/testarbeit/assets/img/1.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     /* background-color: #cccccc; */
@@ -98,13 +98,12 @@ header {
     right: -30%;
     background-color: #000;
     transition: all .3s linear;
-    opacity: 70%;
 }
 
 .group {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .group h2{
