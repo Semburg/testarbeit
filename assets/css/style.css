@@ -174,7 +174,7 @@ header {
     display: inline-block;
     width: 700px;
     height: 700px;
-    background: url("/assets/img/2.jpg") center/cover no-repeat;
+    background: url("https://semburg.github.io/testarbeit/assets/img/2.jpg") center/cover no-repeat;
 }
 
 .welcome_a .text {
@@ -184,7 +184,7 @@ header {
 }
 
 .second .img {
-    background: url("/assets/img/3.jpg") center/cover no-repeat;
+    background: url("https://semburg.github.io/testarbeit/assets/img/3.jpg") center/cover no-repeat;
     margin-bottom: 10rem;
 }
 
@@ -198,7 +198,7 @@ header {
     padding: 0;
     width: 100vw;
     background-color: rgb(153, 163, 221);
-    background: url("/assets/img/4.jpg") center/cover no-repeat;
+    background: url("https://semburg.github.io/testarbeit/assets/img/4.jpg") center/cover no-repeat;
 }
 
 
@@ -245,7 +245,7 @@ header {
 #wrapper_news_line .news_img {
     height: 320px;
     width: 320px;
-    background: url("/assets/img/5.jpg") center/cover no-repeat;
+    background: url("https://semburg.github.io/testarbeit/assets/img/5.jpg") center/cover no-repeat;
 }
 
 .pub_date {
@@ -261,15 +261,15 @@ header {
 }
 
 #wrapper_news_line .news_img.second {
-    background: url("/assets/img/6.jpg") center/cover no-repeat;
+    background: url("https://semburg.github.io/testarbeit/assets/img/6.jpg") center/cover no-repeat;
 }
 
 #wrapper_news_line .news_img.third {
-    background: url("/assets/img/7.jpg") center/cover no-repeat;
+    background: url("https://semburg.github.io/testarbeit/assets/img/7.jpg") center/cover no-repeat;
 }
 
 #wrapper_news_line .news_img.fourth {
-    background: url("/assets/img/8.jpg") center/cover no-repeat;
+    background: url("https://semburg.github.io/testarbeit/assets/img/8.jpg") center/cover no-repeat;
 }
 
 
@@ -289,7 +289,7 @@ header {
     width: 95%;
     height: 780px;
     margin: 0 auto;
-    background: url("/assets/img/9.jpg") center/cover no-repeat;
+    background: url("https://semburg.github.io/testarbeit/assets/img/9.jpg") center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
